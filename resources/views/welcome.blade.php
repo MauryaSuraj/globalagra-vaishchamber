@@ -8,7 +8,10 @@
                     Find Everything About Agarwal Community
                 </h1>
                 <h2 class="text-white h1">Take advantage of this free of charge and can further strengthen the unity of Agarwal society.</h2>
-
+            </div>
+            <div class="row">
+                <input type="text" class="col-md-9 form-control-lg mt-5 rounded-pill" placeholder="Search here">
+                <a href="#" class=" col-md-3 btn btn-outline-primary rounded-pill">Search</a>
             </div>
         </div>
     </div>
@@ -35,8 +38,26 @@
         </div>
 
     </div>
-    <div class="row d-flex justify-content-center">
+    <div class="row d-flex justify-content-center mt-4">
         <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
             </li>
