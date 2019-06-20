@@ -17,11 +17,45 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.2/css/mdb.min.css" rel="stylesheet">
-
 </head>
 <body>
     <div id="app">
+        <div class="container">
+            <div class="row py-1">
+                <div class="col-md">
+                    <div class="row">
+                        <div class="col-md">
+                            <img src="https://image.flaticon.com/icons/svg/134/134951.svg" style="width: 20px" alt=""> <strong class="pl-2">: +91-9873927287</strong>
+                        </div>
+                        <div class="col-md">
+                            <img src="https://image.flaticon.com/icons/svg/321/321817.svg" style="width: 20px" alt=""> <strong class="pl-2">: info@globalagra-vaishchamber.com</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex justify-content-end">
+                        <div class="bg-facebook">
+                            <img src="https://image.flaticon.com/icons/svg/160/160154.svg" alt="" class="socialicon">
+                        </div>
+                        <div class="bg-twitter">
+                            <img src="https://image.flaticon.com/icons/svg/134/134099.svg" alt="" class="socialicon">
+                        </div>
+                        <div class="bg-skype">
+                            <img src="https://image.flaticon.com/icons/svg/134/134086.svg" alt="" class="socialicon">
+                        </div>
+                        <div class="bg-linkdin">
+                            <img src="https://image.flaticon.com/icons/svg/126/126738.svg" alt="" class="socialicon">
+                        </div>
+                        <div class="bg-youtube">
+                            <img src="https://image.flaticon.com/icons/svg/134/134141.svg" alt="" class="socialicon">
+                        </div>
+                        <div class="bg-gplus">
+                            <img src="https://image.flaticon.com/icons/svg/1051/1051335.svg" alt="" class="socialicon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/') }}">
@@ -86,7 +120,7 @@
             </div>
         </nav>
 
-        <main class="">
+        <main class="my-5">
             @yield('content')
         </main>
         <footer class="d-flex justify-content-center bg-dark p-5 text-white">
