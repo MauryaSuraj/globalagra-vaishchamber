@@ -19,3 +19,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/about','AboutController@index')->name('about');
 Route::get('/contact','ContactController@index')->name('contact');
 Route::get('/supporter','SupporterController@index')->name('supporter');
+
+Route::get('/profile','ProfileController@index')->name('profile');
+
+Route::get('/admin','AdminController@index');
+Route::get('/superadmin','SuperAdminController@index');
